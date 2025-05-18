@@ -1,3 +1,9 @@
+# use prebuild packages on ubuntu
+if (tolower(Sys.info()[["sysname"]]) == "linux") {
+  options(repos = c(CRAN = "https://packagemanager.posit.co/cran/__linux__/noble/latest"))
+}
+
+
 # install necessary packages
 install.packages(c("devtools", "altdoc"))
 
