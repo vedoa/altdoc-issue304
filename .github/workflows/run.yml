@@ -24,7 +24,7 @@ jobs:
       - name: Install Quarto CLI
         uses: quarto-dev/quarto-actions/setup@v2
         with:
-        version: 'latest'
+          version: 'latest'
 
       - name: Run R script
         run: Rscript issue304.R
