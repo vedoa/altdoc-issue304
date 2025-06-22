@@ -26,6 +26,5 @@ jobs:
         with:
           version: 'latest'
 
-
       - name: Run R script
         run: Rscript issue304.R
