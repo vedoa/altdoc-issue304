@@ -5,8 +5,7 @@ if (tolower(Sys.info()[["sysname"]]) == "linux") {
 
 
 # install necessary packages
-install.packages(c("devtools"))
-devtools::install_github("etiennebacher/altdoc")
+install.packages(c("devtools", "altdoc"))
 
 dir.create(file.path(getwd(), "R"))
 dir.create(file.path(getwd(), "man"))
